@@ -10,3 +10,8 @@ Wifi code from Davide Gironi (GPLv3).
 
 The Hub folder contains code for the main controller with a microphone. The output folders
 each control a specific output or PWM motor.
+
+The PCB for each was identical, with the hub containing different parts than the output
+devices.
+
+![Schematic](SchematicPCB/Schematic.png?raw=true)
