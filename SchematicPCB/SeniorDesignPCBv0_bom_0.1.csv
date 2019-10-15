@@ -1,0 +1,48 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Cost,Manufacturer Part #,Package Type,Where to Buy,Manufacturer
+1,,Arduino_Nano,A1,Arduino_Nano,Arduino_Nano,1,https://media.digikey.com/pdf/Data%20Sheets/Arduino%20PDFs/A000005.pdf,11.86,EL-CB-005,Fixed Pins,https://www.amazon.com/Arduino-Elegoo-ATmega328P-without-compatible/dp/B0713XK923,Elegoo
+2,,ada_mic,AM1,ada_mic,ADA_mic,1,https://cdn-shop.adafruit.com/datasheets/MAX4465-MAX4469.pdf,6.95,Adafruit MAX4466 Electret Mic Amplifier,Pin Headers,https://www.adafruit.com/product/1063,Adafruit
+3,,CAP,C1,10u,CP_Radial_D5.0mm_P2.00mm,1,http://katalog.we-online.de/pbs/datasheet/860020472003.pdf,.10,860020472003,"Radial, Can",https://www.digikey.com/product-detail/en/wurth-electronics-inc/860020472003/732-8820-1-ND/5728765,Worth Electronics Inc
+4,,C-RESCUE-SeniorDesignPCBv0,C4 C5,1uF,CP_Radial_Tantal_D4.5mm_P2.50mm,2,https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf,.32,FG18X5R1H105KRT06,Radial,https://www.digikey.com/product-detail/en/tdk-corporation/FG18X5R1H105KRT06/445-173257-1-ND/5811862,TDK Corporation
+5,,CAP,C2,CAP,CP_Radial_Tantal_D4.5mm_P2.50mm,1,http://www.vishay.com/docs/45171/kseries.pdf,.17,K101K10X7RH5UH5,Radial,https://www.digikey.com/product-detail/en/vishay-bc-components/K101K10X7RH5UH5/BC2658CT-ND/2356872,Vishay BC Components
+6,Diode,D,D1,1N4004,D_A-405_P10.16mm_Horizontal,1,http://www.mccsemi.com/up_pdf/1N4001-1N4007(DO-41).pdf,.11,1N4004-TP,DO-41,https://www.digikey.com/product-detail/en/micro-commercial-co/1N4004-TP/1N4004-TPMSCT-ND/773691,Micro Commercial Co
+7,LED generic,LED,D3,RED LED,PlaceHolder,1,http://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf,.15,C503B-RAN-CZ0C0AA1,Radial,https://www.digikey.com/products/en?keywords=C503B-RAN-CZ0C0AA1,Cree Inc.
+8,"Fuse, generic",Fuse,F1,15A,FuseHolder,1,https://belfuse.com/resources/StewartConnector/3AG.pdf,.31,3AG 15-R,"3AB, 3AG",https://www.digikey.com/product-detail/en/bel-fuse-inc/3AG-15-R/507-1629-ND/1009968,Bel Fuse Inc.
+9,"Fuse, small symbol",Fuse_Small,F2,Fuse_Small,C_Disc_D8.0mm_W2.5mm_P5.00mm,1,http://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rxef050_product_specification.pdf.pdf,.39,RXEF050,"Radial, Disc",https://www.digikey.com/product-detail/en/littelfuse-inc/RXEF050/RXEF050HF-ND/5015994,Littelfuse Inc
+10,DC Motor,Motor_DC,J1,CONN_01X02,Pin_Header_Straight_1x02_Pitch2.54mm,1,https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/SER0043_Web.pdf,4,SER0043,Wire Leads,https://www.digikey.com/product-detail/en/dfrobot/SER0043/1738-1300-ND/7087197,DFRobot
+11,,PowerInput-RESCUE-SeniorDesignPCBv0,J2,CONN_01X03_FEMALE,703W-0053,1,http://www.qualtekusa.com/Catalog/AC_Receptacles/pdfs/703w0053.pdf,1.05,703W-00/53,"Receptacle, Male Blades",https://www.digikey.com/product-detail/en/qualtek/703W-00-53/Q219-ND/245560,Qualtek
+12,,PowerInput-RESCUE-SeniorDesignPCBv0,J3,CONN_01X03_FEMALE,JST_VH_B3P-VH_3x3.96mm_Vertical,1,http://www.jst-mfg.com/product/pdf/eng/eVH.pdf,.24,B3P-VH(LF)(SN),THrough Hole,https://www.digikey.com/product-detail/en/jst-sales-america-inc/B3P-VH-LF-SN/455-1640-ND/926548,JST Sales America Inc
+13,"Connector, single row, 01x04, pin header",CONN_01X04,J4,CONN_01X04,Pin_Header_Straight_1x04_Pitch2.54mm,1,https://cdn.harwin.com/pdfs/M20-999.pdf,.19,M20-9990445,Male Pin,https://www.digikey.com/product-detail/en/harwin-inc/M20-9990445/952-2265-ND/3728229,Harwin Inc
+14,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J5 J6 J8,Conn_01x02,JST_EH_B02B-EH-A_02x2.50mm_Straight,3,http://www.jst-mfg.com/product/pdf/eng/eEH.pdf,.14,B2B-EH-A(LF)(SN),Male Pin Header,https://www.digikey.com/product-detail/en/jst-sales-america-inc/B2B-EH-A-LF-SN/455-1611-ND/926520,JST Sales America Inc.
+15,"FINDER 32.21-x300, Single Pole Relay SPST-NO, 6A",RM50-xx21,K1,SPST-NO,Relay_SPST_Schrack-RT1-FormA_RM5mm,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RZ&DocType=DS&DocLang=English,1.52,RZ03-1A4-D005,PC Pin,https://www.digikey.com/product-detail/en/te-connectivity-potter-brumfield-relays/RZ03-1A4-D005/PB1267-ND/2267918,TE Connectivity
+16,"Servo Motor (Futaba, HiTec, JR connector)",Motor_Servo_Futaba_J,M1,Motor_Servo_Futaba_J,Pin_Header_Straight_1x03_Pitch2.54mm,1,https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/169_Web.pdf,5.95,169,Wire Leads,https://www.digikey.com/product-detail/en/adafruit-industries-llc/169/1528-1076-ND/5154651,Adafruit Industries LLC
+17,,Part,P10 P12 P17,ConnHousing,PlaceHolder,3,http://www.jst-mfg.com/product/pdf/eng/eEH.pdf,.10,EHR-2,Receptacle,https://www.digikey.com/product-detail/en/jst-sales-america-inc/EHR-2/455-1000-ND/527224,JST Sales America Inc.
+18,,Part,P11 P13 P18,Contact,PlaceHolder,3,http://www.jst-mfg.com/product/pdf/eng/eEH.pdf,.10,SEH-001T-P0.6,Crimp Socket,https://www.digikey.com/product-detail/en/jst-sales-america-inc/SEH-001T-P0.6/455-1042-1-ND/527266,JST Sales America Inc.
+19,,Part,P1 P2,FuseHolder,PlaceHolder,2,https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/FC_Series.pdf,.31,FC-102-22,PC Pin,https://www.digikey.com/product-detail/en/bel-fuse-inc/FC-102-22/507-1702-ND/622585,Bel Fuse Inc.
+20,,Part,P7,Header,PlaceHolder,1,http://katalog.we-online.de/em/datasheet/6130xx11121.pdf,.13,61300311121,Male Pin Headers,https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300311121/732-5316-ND/4846825,Wurth Electronics Inc
+21,,Part,P8,JmpWire,PlaceHolder,1,https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/1954_Web.pdf,1.95,1954,Jumper Wires,https://www.digikey.com/product-detail/en/adafruit-industries-llc/1954/1528-1964-ND/6827087,Adafruit
+22,,Part,P6,NEMA15 Out,PlaceHolder,1,http://www.qualtekusa.com/Catalog/AC_Receptacles/pdfs/738wx203.pdf,.99,738W-X2/03,NEMA 5-15R,https://www.digikey.com/product-detail/en/qualtek/738W-X2-03/Q227-ND/245568,Qualtek
+23,,Part,P5,Wire,PlaceHolder,1,https://www.digikey.com/product-detail/en/jst-sales-america-inc/ASVHSVH16K152/455-3106-ND/6009482,.68,ASVHSVH16K152,Wire,https://www.digikey.com/product-detail/en/jst-sales-america-inc/ASVHSVH16K152/455-3106-ND/6009482,JST Sales America Inc.
+24,,Part,P4,WireCon,PlaceHolder,1,http://www.jst-mfg.com/product/pdf/eng/eVH.pdf,.14,VHR-3N,Receptacle,https://www.digikey.com/product-detail/en/jst-sales-america-inc/VHR-3N/455-1184-ND/608625,JSE Sales America Inc.
+25,,RAC04,PS1,RAC04,PlaceHolder,1,https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-SC_W.pdf,14.35,RAC04-09SC/W,Chassis Mount,https://www.digikey.com/product-detail/en/recom-power/RAC04-09SC-W/945-2211-ND/4976893,Recom Power
+26,"50V Vce, 0.15A Ic, Low Noise Audio NPN Transistor, TO-92",2SC1815,Q1,2n4401,TO-92_Inline_Narrow_Oval,1,https://www.digikey.com/product-detail/en/on-semiconductor/2N4401BU/2N4401-ND/1417,.24,2N4401BU,TO-92-3,https://www.digikey.com/product-detail/en/on-semiconductor/2N4401BU/2N4401-ND/1417,ON Semiconductor
+27,Resistor,R,R3,470,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,https://www.seielect.com/Catalog/SEI-CF_CFM.pdf,.10,CF14JT470R,Axial,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT470R/CF14JT470RCT-ND/1830342,Stackpole Electronics inc
+28,Resistor,R,R1,R2k,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,1,https://www.seielect.com/Catalog/SEI-CF_CFM.pdf,.1,CF14JT2K20,Axial,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT2K20/CF14JT2K20CT-ND/1830358,Stackpole Electronics
+29,"Switch, single pole double throw",SW_SPDT,SW1,SW_SPDT,PlaceHolder,1,http://spec_sheets.e-switch.com/specs/T111069.pdf,2.88,100SP1T2B4M6QE,PC Pin,https://www.digikey.com/product-detail/en/e-switch/100SP1T2B4M6QE/EG2362-ND/378831,E-Switch
+30,Quadruple Half-H Drivers,L293D,U1,L293D,DIP-16_W7.62mm,1,http://www.st.com/content/ccc/resource/technical/document/datasheet/04/ac/22/f9/20/5d/43/a1/CD00000059.pdf/files/CD00000059.pdf/jcr:content/translations/en.CD00000059.pdf,3.91,L239D,16-DIP,https://www.digikey.com/product-detail/en/stmicroelectronics/L293D/497-2936-5-ND/634700,STMicroelectronics
+31,,MCP1702,U3,MCP1702-5002E/T0,TO-92_Inline_Narrow_Oval,1,http://ww1.microchip.com/downloads/en/DeviceDoc/22008E.pdf,.51,MCP1702-5002E/TO,TO-92-3,https://www.digikey.com/product-detail/en/microchip-technology/MCP1702-5002E-TO/MCP1702-5002E-TO-ND/1098464,Microchip Technology
+32,,nRF24L01+,U2,nRF24L01+,NRF24L01,1,https://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf,11.98,BC22523,Male Pin Headers,https://www.amazon.com/Makerfire-Arduino-NRF24L01-Wireless-Transceiver/dp/B00O9O868G,Makerfire
+
+
+
+
+
+Component Groups:,32
+Component Count:,40
+Fitted Components:,40
+Number of PCBs:,1
+Total components:,40
+Schematic Version:,0.1
+Schematic Date:,2018-01-21
+BoM Date:,Sun 18 Feb 2018 08:53:33 PM PST
+Schematic Source:,/home/miles/Documents/ECE44x/PCB/SeniorDesignPCBv0.sch
+KiCad Version:,Eeschema 4.0.6+dfsg1-1

@@ -1,0 +1,12 @@
+(module PlaceHolder (layer F.Cu) (tedit 5A9875A8)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PlaceHolder (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0 -1.27) (end 0 -2.54) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.27 -1.27) (end 0 -1.27) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.27 -2.54) (end 1.27 -1.27) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0 -2.54) (end 1.27 -2.54) (layer F.SilkS) (width 0.15))
+)
